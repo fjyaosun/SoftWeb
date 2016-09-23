@@ -49,7 +49,9 @@ func ClassicPool(capacity, maxIdle int,
 	go pool.gc()
 	return pool
 }
+func (self *classic) Get() error {
 
+}
 func (self *classic) Call(callback func(Src) error) error {
 	var src Src
 	defer func() {
