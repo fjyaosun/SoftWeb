@@ -1,11 +1,11 @@
 package mongodb
 
 import (
-	"pca/lib/jlog"
-	"pca/lib/pool"
+	"SoftWeb/lib/jlog"
+	"SoftWeb/lib/pool"
 	"time"
 
-	"gopkg.in/mgo.v2"
+	mgo "gopkg.in/mgo.v2"
 )
 
 type MgoSrc struct {

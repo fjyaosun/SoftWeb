@@ -1,9 +1,9 @@
 package jlog
 
 import (
+	"SoftWeb/lib/jsmtp"
 	"flag"
 	"fmt"
-	"pca/lib/jsmtp"
 	"runtime"
 
 	"github.com/golang/glog"
